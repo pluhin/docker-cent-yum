@@ -1,4 +1,4 @@
-FROM centos:centos7.3.1611
+FROM centos:centos6.8
 LABEL maintainer="pluhin@gmail.com"
 
 RUN yum install epel-release -y && \

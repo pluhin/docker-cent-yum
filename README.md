@@ -1,5 +1,5 @@
 # docker-cent-yum
-Grabber of packages form yum repos
+Grabber of packages from yum repos
 
 ## Run localy
 

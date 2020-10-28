@@ -6,18 +6,18 @@ Grabber of packages from yum repos
 ### Build image
 
 ```bash
-docker build -t cent_yum:6.7 .
+docker build -t cent_yum:8 .
 ```
 
 ### Grab packages
 
 ```bash
-docker run --rm -v /tmp/yum_package:/tmp/yum_package cent_yum:6.7 install -y --downloadonly --downloaddir=/tmp/yum_package <PACKAGE_NAME>
+docker run --rm -v /tmp/yum_package:/tmp/yum_package cent_yum:8 install -y --downloadonly --downloaddir=/tmp/yum_package icinga2
 ```
 
 ## Run using image from docker registry
 
-Branch name (example: `6.7`) is suffix in image tag on docker hub
+Branch name (example: `8`) is suffix in image tag on docker hub
 
 Example: 
 
